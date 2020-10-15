@@ -215,10 +215,12 @@ localstorge 另一个浏览上下文里被添加、修改或删除时，它都�
 - 基于 multipart 编码发送 XHR 、
 - 基于长轮询的 XHR
 
-### 页面可见性（Page Visibility API） 可以有哪些用途？
+### 页面可见性（Page Visibility API）: document.visibilityState , document.hidden 可以有哪些用途？
 
-- 通过 visibilityState 的值检测页面当前是否可见，以及打开网页的时间等;
+- 通过  document.visibilityState 或 document.hidden 的值检测页面当前是否可见，以及打开网页的时间等;
 - 在页面被切换到其他后台进程的时候，自动暂停音乐或视频的播放；
+
+
 
 ### 如何在页面上实现一个圆形的可点击区域？
 
